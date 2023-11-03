@@ -1,0 +1,12 @@
+Create and open virtual environment:
+`python3 -m venv venv`
+`source venv/bin/activate`
+
+Install the required packages by using the requirement.txt:
+`pip install -r requirements.txt`
+
+To generate images of random number histogram:
+`python3 random_numbers.py`
+
+To generate images of random walk and plots:
+`python3 random_walk_on_grid.py`
