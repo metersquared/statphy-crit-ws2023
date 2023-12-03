@@ -1,0 +1,26 @@
+HW 2 by Fabio Steyer, Arya Prasetya
+
+Problem 3:
+
+the code is in form of a jupyter notebook
+
+for executing the code run all cells of the notebook (.ipynb) starting vom top to buttom
+
+all tasks are marked with headlines above
+
+Problem 4:
+
+Create and open virtual environment:
+`python3 -m venv venv`
+`source venv/bin/activate`
+
+Install the required packages by using the requirement.txt:
+`pip install -r requirements.txt`
+
+To generate images of random walk (nonreversal walk trial 4a) and 5 selfavoiding walks 4c)):
+`python3 random_walk.py`
+
+Note on the nonreversal random walk, we can see the slope increased, due to the fact that walks will propagate further with nonreversal condition.
+
+To generate plot of mean squared distance of nonreversal walk:
+`python3 msq_nonreversal.py`

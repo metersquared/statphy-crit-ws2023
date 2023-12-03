@@ -107,7 +107,7 @@ ax2.errorbar(N_array, MSQ_array, yerr=ERR_array, fmt="xk")
 ax2.plot(N_array, p(N_array))
 
 ax2.legend(
-    ["Fit:${}+{}x$".format(coeff[0], coeff[1]), "Simulated walk"], loc="upper left"
+    ["Fit:${}+{}x$".format(coeff[1], coeff[0]), "Simulated walk"], loc="upper left"
 )
 
 path = join(dirname(abspath(__file__)), "hw02c_msqd_plot.pdf")
