@@ -1,0 +1,21 @@
+HW 12 by Arya Prasetya
+
+Problem 18:
+
+Create and open virtual environment:
+`python3 -m venv venv`
+`source venv/bin/activate`
+
+Install the required packages by using the requirement.txt:
+`pip install -r requirements.txt`
+
+To generate the sweep animation with s sweeps and f frames, use the hw12_ising_interface.py script. It uses an argument sparser, so you can choose which temperature T and length L you want to have :
+`python3 hw12_ising_interface.py [L] [T] [s] [f]`
+
+This will return a GIF file, "Ising_Evolution_T[T].csv".
+
+To generate image of 100 sweep us the hw12_xy_model.py script. With parser you can define the box length L, inverse temperature beta, interaction strength J and external field h:
+
+`python3 hw12_xy_model.py [L] [beta] [J] [H]`
+
+This will retirn a PDF file, "XY_Plot_L[L]\_beta[beta]\_J[J]\_h[H].pdf".

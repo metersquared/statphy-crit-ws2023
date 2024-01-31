@@ -1,0 +1,19 @@
+HW 6 by Fabio Steyer, Arya Prasetya
+
+Problem 12:
+
+Create and open virtual environment:
+`python3 -m venv venv`
+`source venv/bin/activate`
+
+Install the required packages by using the requirement.txt:
+`pip install -r requirements.txt`
+
+To generate calculation of Monte Carlo simulations use the hw06_ising.py script. It uses an argument sparser, so you can choose which temperature bounds and L you want to have :
+`python3 hw06_ising.py [L] [Tmin] [Tmax]`
+i.e. `python3 hw06_ising.py 8 1.5 3.0`
+
+This will return a CSV file, "Monte_Carlo_Ising_Importance_L[L].csv".
+
+To generate plot of mean squared magnetization per volume over temperature run:
+`python3 hw06_plot.py`

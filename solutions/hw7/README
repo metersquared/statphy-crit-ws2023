@@ -1,0 +1,21 @@
+HW 7 by Fabio Steyer, Arya Prasetya
+
+Problem 13:
+
+Create and open virtual environment:
+`python3 -m venv venv`
+`source venv/bin/activate`
+
+Install the required packages by using the requirement.txt:
+`pip install -r requirements.txt`
+
+To generate calculation of Monte Carlo simulations use the hw07_fs_scaling.py script. It uses an argument sparser, so you can choose which temperature bounds and L you want to have :
+`python3 hw07_fs_scaling.py [L]`
+i.e. `python3 hw07_fs_scaling.py 10`
+
+This will return a CSV file, "Monte_Carlo_Ising_Importance\_\_FS_Scaling_L[L].csv".
+
+To generate plot of mean magnetization per volume over temperature run:
+`python3 hw07_plot.py`
+
+From out calculation, we get that beta=0.099 which is close to the expected value of beta=1/8 for d=2.
